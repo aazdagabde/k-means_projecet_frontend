@@ -1,0 +1,24 @@
+/* Import de la police Google Font INTER */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Application de la police à tout le site */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F8FAFC; /* Un gris très léger, plus moderne que le blanc pur */
+}
+
+/* Personnalisation de la scrollbar pour faire "Pro" */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #c7c7c7; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8; 
+}
